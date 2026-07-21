@@ -80,6 +80,19 @@ Evaluation Metric:
 - ROC-AUC
 
 ---
+## Evaluation
+
+The predicted truth values in `result.ttl` were submitted to the
+[GERBIL Fact Checking benchmark](https://gerbil-kbc.aksw.org/gerbil/config)
+using "SW 2022 Test" as the reference dataset.
+
+**ROC-AUC = 0.697** — exceeding the minimum required threshold of 0.60.
+
+![GERBIL Result](results/result_image.png)
+
+## Team
+- Arya Kulkarni — feature engineering, model training, prediction
+- Shalmali Karandikar — evaluation, GERBIL submission, documentation
 
 ## Project Structure
 
